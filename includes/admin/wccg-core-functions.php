@@ -1,6 +1,6 @@
 <?php
 /**
- * WC Coupong Generator core functions.
+ * WC Coupon Generator core functions.
  *
  * @author 		Jeroen Sormani
  * @since		1.0.0
@@ -129,7 +129,7 @@ function wccg_get_random_coupon() {
 	// Generate unique coupon code
 	$random_coupon = '';
 	$length        = 12;
-	$charset       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+	$charset       = 'CFHMNPRSTWXY347';
 	$count         = strlen( $charset );
 
 	while ( $length-- ) {
